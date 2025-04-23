@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url(../Fotos/gliter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width: 65%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc6d1;
+    padding: 20px;
+    border-radius: 20px;
+    border: groove 2px #660033;
+    
+}
+
+.container p{
+    text-align: justify;
+    font-size: 17px;
+    color: #202020;
+    line-height: 1.5;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+}
+
+.container img{
+    border-radius: 10%;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    border: 3.5px solid #660033;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons  img{
+    border: none;
+    box-shadow: none;
+}
+
+.buttons{
+    display: flex;
+    width: 180%;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.botao{
+    border-radius: 25%;
+    background-color: transparent;
+    border: none;
+}
+
+.flor{
+    pointer-events: none;
+}
+.botao:hover .flor{
+    transform: scale(1.1);
+}
+
+.botao .flor{
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+    width: 30px;
+    height: 30px;
+}
+
+.div_fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Fredericka the Great", serif;
+    color:#660033;
+    font-size: 35px;
+}
+
+h2{
+    font-family: "Fredericka the Great", serif;
+    color: #660033;
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .container img {
+        width: 200px;
+        height: 170px;
+    }
+
+    .buttons {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 15px;
+    }
+
+    .container img {
+        width: 180px;
+        height: 160px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botao {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .container img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botao {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .container p {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+
+    .container img {
+        width: 130px;
+        height: 110px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .botao {
+        margin: 8px 0;
+    }
+}
