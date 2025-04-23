@@ -26,7 +26,7 @@ const memorias = [
     },
     {
       "titulo": "Primeira vez na Canção Nova",
-      "img": "./Fotos/Cançao nova.jpeg",
+      "img": "./Fotos/Cancao_nova.jpeg",
       "descricao": "Foi ali, naquele momento, que entendi: Deus nunca esteve distante. Era eu que precisava me aproximar. Às vezes, tudo o que o coração precisa é de um lugar de paz para lembrar que nunca esteve sozinho."
     },
     {
